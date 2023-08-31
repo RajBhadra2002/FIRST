@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(206,215,233);
+    margin: 0;
+}
+
+.menu{
+  padding: 0;
+  text-align: center;
+}
+.sidebar{
+    background-color: #282a3a;
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    padding: 30px 0px;
+}
+
+.sidebar h2{
+  font-size: 25px;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+h2{
+    color:white;
+    margin: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.banner {
+    text-align: center;
+    margin-left: 100px;
+    padding-left: -402px;
+    font-size: 40px;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #19e532;
+}
+
+
+
+li{
+    list-style: none;
+    padding: 15px;
+
+}
+li:hover{
+    background-color: rgba(206, 215,233, 0.3);
+}
+a{
+    color:white;
+    text-decoration: none;
+   
+}
+
+li a{
+  color: white;
+  text-decoration: none;
+
+}
+
+li a:hover{
+  color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+}
+
+table{
+    width: 70%;
+    margin-left: 269px;
+    border-collapse: collapse;
+}
+tbody{
+  text-align: center;
+}
+  td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+  }
+  th{
+    background-color: #3050ab;
+    color: white;
+ 
+  }
+ 
+  tr:nth-child(even) {
+    background-color: #f8f7f7;
+  }
+  table button{
+    display: inline-block;
+    border: none;
+    padding: 0.4rem;
+    border-radius:1px;
+    outline: none;
+    cursor: pointer;
+  }
+  .btn-edit{
+/*    background-color: rgb(24, 219, 24);*/
+    color: white;
+    font-size: 10px;
+  }
+  .btn-edit a{
+    padding: 0;
+    color: white;
+  }
+
+  .btn-edit i{
+     font-weight: 900;
+    font-size: 15px;
+    color: #01fd37;
+  }
+
+  .btn-edit a:hover{
+    color: white;
+  }
+  .btn-trash{
+/*    background-color: red;*/
+    color: white;
+  }
+  .btn-trash i{
+     color: red;
+  }
+   .btn-trash a{
+      color: white;
+   }
+
+.btn-trash a:hover{
+   color: white;
+}
+
+  .dataimg img{
+     width: 70px;
+     border: 2px solid black;
+  }
+
+  .update{
+    width: 500px;
+    height: 597px;
+    margin: 0 auto;
+    background-color: blueviolet;
+    padding: 20px;
+  }
+
+    .update label{
+       font-size: 20px;
+       color: white;
+       font-weight: 500;
+    }
+
+.text{
+  color: #00ff08;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+    margin: 0;
+}
+
+.picture{
+  display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.picture img{
+  width: 50%;
+  border: 2px solid black;
+}
+
+.btn-exit{
+  background-color: black;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.btn-exit a{
+   color: white;
+}
+
+.btn-exit a:hover{
+}
+
